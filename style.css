@@ -36,15 +36,40 @@ body{
 }
 
 .main-img{
-    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    width: 400px;
     height: auto;
 }
 
 button{
+    font-weight: bold;
+    color: #f9faf8;
+    border: none;
+    font-family: roboto, sans-serif;
+    width: 100px;
+    margin: 0;
+    padding: 7px;
+    border-radius: 5px;
     background-color: #3882f6;
 }
 
 .below-header{
     display: flex;
     background-color: #1f2937;
+}
+
+.below-header-text{
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 337px;
+    width: 500px;
+    color: #f9faf8;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
 }
