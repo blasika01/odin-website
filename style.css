@@ -163,8 +163,23 @@ h5{
 }
 
 .cat-text{
-
     flex-wrap: wrap;
     display: flex;
     font-size: 24px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer-text{
+    padding: 30px;
+    color: #f9faf8;
+}
+
+.whole{
+    flex: 1;
 }
